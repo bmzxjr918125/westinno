@@ -1,0 +1,124 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.login_main{
+    padding: 30px 0;
+    border-top: #f2f2f2 solid 1px;
+}
+.content{
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+}
+.login_content{
+    width: 440px;
+    margin: 0 auto;
+}
+.login_head{
+    font-size: 22px;
+    color: #ff9900;
+    text-align: center;
+    padding: 30px 0;
+}
+.login_inp{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.login_inp_list{
+    height: 28px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: #cccccc solid 1px;
+    position: relative;
+    float: left;
+}
+.inp_test{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.inp_test .login_inp_list{
+    width: 190px;
+}
+.inp_test .login_inp_list input{
+    width: 147px;
+}
+.test_pic{
+    width: 170px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+.test_pic img{
+    width: 170px;
+    height: 60px;
+    vertical-align: middle;
+}
+.test_btn{
+    margin-bottom: 20px;
+}
+.test_btn .btn_moni{
+    width: 230px;
+    height: 50px;
+    outline: inherit;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login_icon{
+    float: left;
+}
+.login_icon img{
+    width: 28px;
+    height: 28px;
+}
+.input_main{
+    float: left;
+    margin-left: 15px;
+}
+.input_main input{
+    width: 355px;
+    height: 28px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    outline: inherit;
+    border: none;
+    background-color: #ffffff;
+}
+
+
+.login_btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login_btn button{
+    width: 380px;
+    height: 50px;
+    outline: inherit;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.register_dic{
+    font-size: 13px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.register_dic a{
+    color: #ff9900;
+}
+
+.copy{
+    margin-top: 10px;
+}

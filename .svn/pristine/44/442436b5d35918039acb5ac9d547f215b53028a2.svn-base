@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>确认订单</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="../css/basicCss/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/order_sure.css"/>
+</head>
+<body>
+<!--顶部导航、登入等操作-->
+<div class="top">
+    <div class="top_main">
+        <div class="top_main_content">
+            <div class="top_main_left">
+                <div class="top_main_word">
+                    <a href="javascript:;">成都东唐智盛企业管理咨询</a><span>旗下平台</span>
+                </div>
+                <div class="black_white_line" style="float: left;"></div>
+                <div class="two_dimension">
+                    <div class="two_dimension_btn">
+                        <img src="../images/erweima_small.png" alt=""/>
+                        <span>关注WESTINNO微信公众号</span>
+                    </div>
+                    <div class="two_dimension_gap">
+                        <div class="two_dimension_pic">
+                            <img src="../images/erweima.png" alt=""/>
+                            <div class="two_dimension_word">
+                                <span>扫一扫关注WESTINNO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_main_right">
+                <div class="login_in" style="display: none;">
+                    <div class="black_white_line"></div>
+                    <div class="quit">
+                        <div class="login_operate">
+                            <a href="javascript:;">退出</a>
+                        </div>
+                    </div>
+                    <div class="login_operate">
+                        <a href="javascript:;">购物车<span class="buy_num">0</span></a>
+                    </div>
+                    <div class="black_white_line"></div>
+                    <div class="login_operate">
+                        <a class="font_orange" href="javascript:;">我的订单</a>
+                    </div>
+                    <div class="black_white_line"></div>
+                    <div class="login_operate">
+                        <a class="font_orange" href="javascript:;">1803048751</a>
+                    </div>
+                </div>
+                <div class="login_out">
+                    <div class="login_operate">
+                        <a href="javascript:;">购物车<span class="buy_num">0</span></a>
+                    </div>
+                    <div class="black_white_line"></div>
+                    <div class="login_operate">
+                        <a href="javascript:;">免费注册</a>
+                    </div>
+                    <div class="black_white_line"></div>
+                    <div class="login_operate">
+                        <a href="javascript:;">登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_bar">
+        <div class="head_bar_content">
+            <div class="bar_logo">
+                <img src="../images/west.png" alt=""/>
+            </div>
+            <div class="bar_bank">
+                <div class="bar_list">
+                    <a class="active" href="javascript:;">首页</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">双创服务</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">知识产权</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">行业资讯</a>
+                </div>
+                <div class="search_area">
+                    <div class="search_area_content">
+                        <input type="text" placeholder="站内搜索"/>
+                        <img src="../images/u202.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="content">
+        <div class="member_top">
+            <img src="../images/shop_car.png" alt=""/>
+            <span>确认订单</span>
+        </div>
+        <div class="shop_main">
+            <div class="shop_bar">
+                <div class="goods_info goods_name">
+                    <span>商品名称</span>
+                </div>
+                <div class="goods_info unit_price">
+                    <span>单价(￥)</span>
+                </div>
+                <div class="goods_info goods_num">
+                    <span>数量</span>
+                </div>
+                <div class="goods_info total">
+                    <span>合计(￥)</span>
+                </div>
+            </div>
+            <div class="shop_content">
+                <div class="shop_list">
+                    <div class="shop_list_left goods_info_list">
+                        <div class="shop_list_pic">
+                            <img src="../images/collect.png" alt=""/>
+                        </div>
+                        <div class="shop_list_name">
+                            <span>创新基金(科技型中小企业发展专项资金)</span>
+                        </div>
+                    </div>
+                    <div class="price_num goods_info_list">
+                        <span>2,000.00</span>
+                    </div>
+                    <div class="num goods_info_list">
+                        <span>1件</span>
+                    </div>
+                    <div class="total_num goods_info_list">
+                        <span>2,000.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="total_money">
+                <button class="orange_btn_9 accounts_btn">确认提交订单</button><i>2,000.00</i><span>金额合计(￥):</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap"></div>
+<!--加载图标-->
+<div class="loading">
+    <div class="loading_main">
+        <div class="loading_pic">
+            <img src="../images/loading.png" alt=""/>
+        </div>
+        <div class="loading_word">
+            <span>订单生成中请稍候</span>
+        </div>
+    </div>
+</div>
+<!--立即付款-->
+<div class="pay_now" style="display: none;">
+    <div class="pay_now_main">
+        <div class="order_cancel_head">
+            <span class="orange_font">立即付款</span>
+            <img class="cancel_btn" src="../images/cancel.png" alt=""/>
+        </div>
+        <div class="pay_now_content">
+            <div class="pay_info">
+                <div class="pay_info_list">
+                    <div class="pay_info_list_left">
+                        <span>商品名称：</span>
+                    </div>
+                    <div class="pay_info_list_right">
+                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                    </div>
+                </div>
+                <div class="pay_info_list">
+                    <div class="pay_info_list_left">
+                        <span>订单号：</span>
+                    </div>
+                    <div class="pay_info_list_right">
+                        <span>1603141040191535</span>
+                    </div>
+                </div>
+                <div class="pay_info_list">
+                    <div class="pay_info_list_left">
+                        <span>金额(￥)：</span>
+                    </div>
+                    <div class="pay_info_list_right">
+                        <span class="red_font">7,000.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="other_way">
+            <div class="other_way_head">
+                <span>您可以选择下列支付方式</span>
+            </div>
+            <div class="other_way_main">
+                <div class="other_way_list">
+                    <div class="way_pic">
+                        <img src="../images/pay.png" alt=""/>
+                    </div>
+                    <div class="way_name">
+                        <span>支付宝支付</span>
+                    </div>
+                </div>
+                <div class="other_way_list">
+                    <div class="way_pic">
+                        <img src="../images/weixin.png" alt=""/>
+                    </div>
+                    <div class="way_name">
+                        <span>微信支付</span>
+                    </div>
+                </div>
+                <div class="other_way_list">
+                    <div class="way_pic">
+                        <img src="../images/bank.png" alt=""/>
+                    </div>
+                    <div class="way_name">
+                        <span>银联支付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copy">
+    <span>© COPYRIGHT 东唐|EASTOW INNOVATION 蜀ICP备13019988号-1</span>
+</div>
+
+<script type="text/javascript" src="../js/basicJS/jquery.js"></script>
+<script type="text/javascript" src="../js/basicJS/common.js"></script>
+<script type="text/javascript" src="../js/order_sure.js"></script>
+</body>
+</html>

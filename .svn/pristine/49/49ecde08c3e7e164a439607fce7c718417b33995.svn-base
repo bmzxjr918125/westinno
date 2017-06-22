@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<constant name="struts.configuration.xml.reload" value="true"></constant>
+	<constant name="struts.devMode" value="true"></constant>
+	<!--设定上传文件最大值是100M--> 
+        <constant name="struts.multipart.maxSize"
+        value="1000000000000"/>
+    
+		
+	
+		
+		<!-- admin验证 -->
+		<package name="westadmin" extends="json-default">
+			<interceptors>
+			    <!--账户的拦截判断-->
+				<interceptor name="adminInterceptor" class="west.util.interceptor.AdminInterceptor">
+					<param name="excludeMethods">login,loginin</param>
+				</interceptor>
+				<interceptor-stack name="westadminInterceptor">
+					<interceptor-ref name="adminInterceptor"/>
+					<interceptor-ref name="defaultStack"/>
+				</interceptor-stack>
+			</interceptors>
+			<!-- 默认拦截器  -->
+			<default-interceptor-ref name="westadminInterceptor"/>
+			 <!--默认action  -->
+			<default-action-ref name="pageNotFund"></default-action-ref>
+			<!-- 全局返回结果  -->
+			<global-results>
+				<result name="login" type="redirectAction">adminlogin</result>
+			</global-results>
+		</package>
+	
+	   <!-- user验证 -->
+		<package name="westuser" extends="json-default">
+			<interceptors>
+			    <!--账户的拦截判断-->
+				<interceptor name="userInterceptor" class="west.util.interceptor.UserInterceptor">
+					<param name="excludeMethods">Login,LoginSave,Register,RegisterSave,SendCode</param>
+				</interceptor>
+				<interceptor-stack name="westuserInterceptor">
+					<interceptor-ref name="userInterceptor"/>
+					<interceptor-ref name="defaultStack"/>
+				</interceptor-stack>
+			</interceptors>
+			<!-- 默认拦截器  -->
+			<default-interceptor-ref name="westuserInterceptor"/>
+			 <!--默认action  -->
+			<default-action-ref name="pageNotFund"></default-action-ref>
+			<!-- 全局返回结果  -->
+			<global-results>
+				<result name="login" type="redirect">login.html</result>
+			</global-results>
+		</package>
+		
+	<!-- html ping++推送接口验证 -->
+	<package name="westcharge" extends="json-default">
+		<interceptors>
+			<interceptor name="chargeInterceptor" class="west.util.interceptor.ChargeInterceptor">
+			   <param name="excludeMethods"></param>
+			</interceptor>
+			<interceptor-stack name="payPushChargeInterceptor">
+				<interceptor-ref name="chargeInterceptor"/>
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+		</interceptors>
+		<!-- 默认拦截器  -->
+		<default-interceptor-ref name="payPushChargeInterceptor"/>
+		 <!--默认action  -->
+		<default-action-ref name="pageNotFund"></default-action-ref>
+		<!-- 全局返回结果  -->
+		<global-results>
+			<result name="PAYPUSHERROR" type="redirectAction">htmlForUserPayRequestError</result>
+		</global-results>
+	</package>
+   
+     <!--后台-->
+     <include file="struts/Admin/Admin_Login.xml" />
+     <include file="struts/Admin/Admin_News.xml" />
+     <include file="struts/Admin/Admin_Product.xml" />
+     <include file="struts/Admin/Admin_Order.xml" />
+     <include file="struts/Admin/Admin_User.xml" />
+     <include file="struts/Admin/Admin_Team.xml" />
+
+     <!--HTML端-->
+     <include file="struts/Html/Html_Index.xml" />
+     <include file="struts/Html/Html_News.xml" />
+     <include file="struts/Html/Html_User.xml" />
+     <include file="struts/Html/Html_Product.xml" />
+     <include file="struts/Html/Html_Charge.xml" />
+
+</struts>
+

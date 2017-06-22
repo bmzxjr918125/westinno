@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package namespace="/manage" name="order" extends="westadmin">
+        <!-- 关于新闻的action -->
+        <action name="order*"  class="adminOrderAction" method="{1}">
+              <result name="Show">/WEB-INF/page/Order/orderShow.jsp</result>
+              <result name="ItemShow">/WEB-INF/page/Order/orderItemShow.jsp</result>
+              <result name="ajaxShow" type="json">
+              	<param name="root">dtJson</param>
+             </result>
+             <result name="notify" type="json">
+              	<param name="root">notify</param>
+             </result>
+        </action>
+    </package>
+		
+</struts>
+	

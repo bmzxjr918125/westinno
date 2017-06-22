@@ -1,0 +1,379 @@
+﻿@charset "UTF-8";
+body,div,address,blockquote,iframe,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,p,pre,table,caption,th,td,form,legend,fieldset,input,button,select,textarea{
+    margin:0;
+    padding:0;
+    font-weight:normal;
+    font-style: normal;
+    font-family:inherit;
+}
+body{
+    color:#000;
+    font-family: '微软雅黑', 'Arial';
+}
+ol,ul,li{
+    list-style:none;
+}
+img{
+    margin:0;
+    padding:0;
+    border:none;
+    vertical-align: middle;
+}
+button{
+    cursor: pointer;
+    outline: inherit;
+    border: none;
+}
+button:focus {
+    outline:0;
+}
+a:focus {
+    outline:0;
+}
+table{
+    border-collapse:collapse;
+}
+a{
+    text-decoration: none;
+}
+.dis{
+    display:block
+}
+.undis{
+    display:none
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*顶部*/
+.black_white_line{
+    width: 0;
+    height: 22px;
+    float: right;
+    margin: 9px 0;
+    border-left: #333333 solid 1px;
+    border-right: #b2b2b2 solid 1px;
+}
+
+.top{
+
+}
+.top_main{
+    width: 100%;
+    background-color: #666666;
+    border-bottom: #ff9900 solid 1px;
+}
+.top_main_content{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.top_main_left{
+    height: 32px;
+    float: left;
+}
+.top_main_right{
+    float: right;
+    overflow: hidden;
+}
+.top_main_word{
+    float: left;
+    margin-right: 15px;
+}
+.top_main_word a{
+    font-size: 13px;
+    color: #ff9900;
+    text-decoration: none;
+    line-height: 32px;
+}
+.top_main_word span{
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 40px;
+    margin-left: 7px;
+}
+.two_dimension{
+    width: 260px;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+.two_dimension_btn img{
+    width: 24px;
+    height: 24px;
+    margin: 8px 0;
+    float: left;
+}
+.two_dimension_btn span{
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.two_dimension_gap{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 40px;
+    z-index: 100;
+}
+.two_dimension_pic{
+    height: 180px;
+    background-color: #666666;
+}
+.two_dimension_pic img{
+    width: 144px;
+    height: 144px;
+    padding: 10px 10px 0 10px;
+}
+.two_dimension_word{
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+.login_operate{
+    float: right;
+}
+.quit{
+    float: right;
+}
+.quit .login_operate{
+    float: left;
+}
+.quit .black_white_line{
+    float: left;
+}
+.login_operate a{
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 15px;
+}
+.login_operate .font_orange{
+    color: #FF9900;
+}
+.login_operate a:hover{
+    color: #ff9900;
+}
+.login_operate .buy_num{
+    color: #ff9900;
+    margin-left: 8px;
+}
+
+.head_bar{
+    width: 100%;
+    height: 88px;
+    background-color: #e4e4e4;
+    border-bottom: #999999 solid 1px;
+}
+.head_bar_content{
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bar_logo{
+    margin: 10px 0;
+    float: left;
+}
+.bar_logo img{
+    width: 321px;
+    height: 68px;
+    vertical-align: middle;
+}
+.bar_bank{
+    width: 570px;
+    float: right;
+    overflow: hidden;
+}
+.bar_list{
+    width: 114px;
+    height: 68px;
+    float: left;
+    margin: 10px 0;
+    text-align: center;
+}
+.bar_list a{
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    line-height: 68px;
+    text-decoration: none;
+}
+.bar_list a:hover{
+    color: #ff9900;
+}
+
+.bar_list .active{
+    color: #ff9900;
+}
+.search_area{
+    width: 180px;
+    height: 30px;
+    float: left;
+    margin: 34px 0 34px 20px;
+    border: #999999 solid 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.search_area_content{
+    padding: 3px 0;
+    overflow: hidden;
+}
+.search_area_content input{
+    width: 120px;
+    height: 24px;
+    font-size: 14px;
+    color: #999999;
+    outline: medium;
+    border: 0;
+    margin: 0 8px;
+    float: left;
+    line-height: 24px;
+}
+.search_area_content img{
+    width: 18px;
+    height: 18px;
+    float: right;
+    padding: 2px 10px;
+    margin: 2px 0;
+    border-left: #999999 solid 1px;
+}
+
+/*底部*/
+.bottom{
+    width: 100%;
+    height: 242px;
+    border-top: #666666 solid 1px;
+    background: url("../../images/back_black.jpg");
+}
+.bottom_content{
+    width: 1200px;
+    margin: 60px auto 0;
+    overflow: hidden;
+}
+.bottom_about{
+    float: left;
+    overflow: hidden;
+}
+.bottom_about_content{
+    width: 120px;
+    float: left;
+}
+.about_head{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+.about_list{
+    margin-top: 10px;
+    text-align: center;
+}
+.about_list a{
+    font-size: 13px;
+    color: #ffffff;
+}
+.bottom_link{
+    float: left;
+    overflow: hidden;
+}
+.bottom_link_list{
+    float: left;
+    overflow: hidden;
+}
+.bottom_link_pic{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 0 0 35px;
+}
+.bottom_link_num{
+    margin-top: 20px;
+    float: left;
+}
+.link_num_top{
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 36px;
+}
+.link_num_time{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+}
+.black_white_line2{
+    width: 0;
+    height: 80px;
+    float: left;
+    margin: 20px;
+    border-left: #333333 solid 1px;
+    border-right: #b2b2b2 solid 1px;
+}
+
+.bottom_erweima{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 0 0 75px;
+}
+.bottom_erweima img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.copy{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #ff9900;
+    margin-top: 25px;
+}
+
+.sanjiao_white{
+    position:absolute;
+    top: 90px;
+    left:530px;
+    display:block;
+    height:0;
+    width:0;
+    font-size: 0;
+    line-height: 0;
+    border: #ffffff solid 30px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.gray_btn_9{
+    background-color: #999999;
+}
+.orange_btn_6{
+    background-color: #ff6600;
+}
+.orange_btn_9{
+    background-color: #ff9900;
+}
+.gray_btn_c{
+    background-color: #cccccc;
+}
+
+.gap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    display: none;
+}

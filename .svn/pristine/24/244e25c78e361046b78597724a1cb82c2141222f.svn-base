@@ -1,0 +1,46 @@
+.jGrowlSuccess{
+    background-color:white !important; 
+}
+.jGrowlSuccess .jGrowl-close{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+.jGrowlSuccess .jGrowl-message{
+	
+	color: black;
+	font-size: 12px;
+	text-align: center;
+}
+
+.jGrowlWarning{
+    background-color:white !important; 
+}
+.jGrowlWarning .jGrowl-close{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+.jGrowlWarning .jGrowl-message{
+	
+	color: black;
+	font-size: 12px;
+	text-align: center;
+}
+
+.jGrowlErorr{
+    background-color:white !important; 
+}
+.jGrowlErorr .jGrowl-close{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+.jGrowlErorr .jGrowl-message{
+	
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	color: red;
+}
+

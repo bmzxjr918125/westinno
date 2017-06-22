@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="htmlproduct" extends="westuser">
+        <!-- 关于HTML 新闻的相关action -->
+        <action name="htmlProduct*" class="htmlProductAction" method="{1}">
+            <result name="Show">/frontpage/Product/productShow.jsp</result>
+            <result name="OrderAdd">/frontpage/Product/productOrderAdd.jsp</result>
+            <result name="ShopCar">/frontpage/Product/shopCar.jsp</result>
+           
+            <result name="CarDelete" type="redirect">productShopCar.html</result>
+            <result name="CarOrderSure" type="redirect">memberCenter-2.html</result>
+            <interceptor-ref name="userInterceptor">
+			   <param name="includeMethods">OrderAdd,ShopCar,CarDelete</param>
+			</interceptor-ref> 
+			<interceptor-ref name="defaultStack"/>
+        	
+        	<result name="success" type="json">
+           		<param name="contentType">text/plain</param>
+            	<param name="root">charge</param>
+           </result>
+        </action>
+    </package>
+</struts>
+	

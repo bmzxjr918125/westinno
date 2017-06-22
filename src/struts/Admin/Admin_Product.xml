@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package namespace="/manage" name="product" extends="westadmin">
+        <!-- 关于商品的action -->
+        <action name="product*"  class="adminProductAction" method="{1}">
+              <result name="Show">/WEB-INF/page/Product/productShow.jsp</result>
+              <result name="Update">/WEB-INF/page/Product/productUpdate.jsp</result>
+	            <result name="UpdateSaveError" type="chain">
+	                 <param name="actionName">productUpdate</param>  
+	            </result>
+	            <result name="UpdateSave" type="redirectAction">
+	                 <param name="actionName">productShow</param>  
+	            </result>
+              <result name="ajaxShow" type="json">
+              	<param name="root">dtJson</param>
+             </result>
+        </action>
+    </package>
+		
+</struts>
+	

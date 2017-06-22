@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package namespace="/manage" name="admin" extends="westadmin">
+        <!-- 关于管理员的action -->
+        <action name="admin*" class="adminAction" method="{1}">
+            <result name="login">/WEB-INF/page/Admin/adminLogin.jsp</result>
+           <result name="success" type="redirectAction">adminMenuShow</result>
+            <result name="MenuShow">/WEB-INF/page/adminMenuShow.jsp</result>
+            <result name="ajaxShow" type="json">
+              	<param name="root">dtJson</param>
+            </result>
+            
+            
+            <result name="add">/WEB-INF/page/Admin/adminAdd.jsp</result>
+            <result name="show">/WEB-INF/page/Admin/adminShow.jsp</result>
+            <result name="addSave" type="redirectAction">adminShow</result>
+            <result name="updatePassword">/WEB-INF/page/Admin/adminUpdatePassword.jsp</result>
+            <result name="updatePower">/WEB-INF/page/Admin/adminUpdatePower.jsp</result>
+            <result name="updatePowerSave" type="redirectAction">adminShow</result>
+            <result name="deleteByBatch" type="json">
+            	<param name="root">notify</param>
+            </result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>注册成功</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="../css/basicCss/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/register_success.css"/>
+</head>
+<body>
+<!--顶部导航、登入等操作-->
+<div class="top">
+    <div class="top_main">
+        <div class="top_main_content">
+            <div class="top_main_left">
+                <div class="top_main_word">
+                    <a href="javascript:;">成都东唐智盛企业管理咨询</a><span>旗下平台</span>
+                </div>
+                <div class="black_white_line" style="float: left;"></div>
+                <div class="two_dimension">
+                    <div class="two_dimension_btn">
+                        <img src="../images/erweima_small.png" alt=""/>
+                        <span>关注WESTINNO微信公众号</span>
+                    </div>
+                    <div class="two_dimension_gap">
+                        <div class="two_dimension_pic">
+                            <img src="../images/erweima.png" alt=""/>
+                            <div class="two_dimension_word">
+                                <span>扫一扫关注WESTINNO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_main_right">
+                <div class="quit">
+                    <div class="black_white_line"></div>
+                    <div class="login_operate">
+                        <a href="javascript:;">退出</a>
+                    </div>
+                </div>
+                <div class="login_operate">
+                    <a href="javascript:;">购物车<span class="buy_num">0</span></a>
+                </div>
+                <div class="black_white_line"></div>
+                <div class="login_operate">
+                    <a href="javascript:;">免费注册</a>
+                </div>
+                <div class="black_white_line"></div>
+                <div class="login_operate">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_bar">
+        <div class="head_bar_content">
+            <div class="bar_logo">
+                <img src="../images/west.png" alt=""/>
+            </div>
+            <div class="bar_bank">
+                <div class="bar_list">
+                    <a href="javascript:;">首页</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">双创服务</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">知识产权</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">行业资讯</a>
+                </div>
+                <div class="search_area">
+                    <div class="search_area_content">
+                        <input type="text" placeholder="站内搜索"/>
+                        <img src="../images/u202.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="login_main">
+    <div class="content">
+        <div class="success_pic">
+            <img src="../images/u9.png" alt=""/>
+        </div>
+        <div class="success_tip1">
+            <span>注册成功</span>
+        </div>
+        <div class="success_word">
+            <p>感谢您注册成为WESTINNO会员，我们将竭诚为您提供最优质的知识产权、双创、项目申报等服务。再次感谢您的加入！</p>
+            <p>系统将在 <span>10</span> 秒后跳转至会员中心</p>
+        </div>
+        <div class="success_tip">
+            <span>温馨提示 : 只有在完善了您的个人信息后才能够在线下单哦！</span>
+        </div>
+        <div class="complete_info">
+            <a href="javascript:;">立即完善</a>
+        </div>
+    </div>
+</div>
+
+<div class="copy">
+    <span>© COPYRIGHT 东唐|EASTOW INNOVATION 蜀ICP备13019988号-1</span>
+</div>
+
+<script type="text/javascript" src="../js/basicJS/jquery.js"></script>
+<script type="text/javascript" src="../js/basicJS/common.js"></script>
+<script type="text/javascript" src="../js/register_success.js"></script>
+</body>
+</html>

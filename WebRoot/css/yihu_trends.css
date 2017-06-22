@@ -1,0 +1,174 @@
+.theme{
+    width: 100%;
+    height: 105px;
+    background-color: #01af21;
+}
+.theme_content{
+    width: 1120px;
+    height: 105px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 105px;
+}
+.theme_name{
+    float: left;
+    width: 210px;
+    height: 105px;
+    position: relative;
+    text-align: center;
+}
+.theme_name span{
+    color: #ffcc00;
+    font-size: 28px;
+}
+.theme_name .orange_font{
+    color: #ffffff;
+}
+/*.triangle_pic{*/
+    /*width: 210px;*/
+    /*height: 16px;*/
+    /*background-color: #ffffff;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+/*}*/
+/*.triangle_pic img{*/
+    /*width: 210px;*/
+    /*height: 16px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+/*}*/
+.trends_content{
+    width: 100%;
+    border-top: #f2f2f2 solid 1px;
+    border-bottom: #f2f2f2 solid 1px;
+    background-color: #f2f2f2;
+}
+.trends_list{
+    width: 1120px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+.no_trends{
+    display: none;
+}
+.no_trends h1{
+    color: #666666;
+    font-size: 32px;
+    line-height: 200px;
+    text-align: center;
+    font-weight: normal;
+}
+.nav_left{
+    width: 210px;
+    height: 50px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.move_piece{
+    width: 14px;
+    height: 50px;
+    background-color: #01af21;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.nav_left span{
+    line-height: 50px;
+    font-size: 18px;
+    color: #01af21;
+}
+.trends_list_content{
+    width: 850px;
+    float: left;
+    margin: 0 30px;
+    border-bottom: #01af21 dashed 1px;
+}
+.trends_name{
+    font-size: 24px;
+    color: #01af21;
+    line-height: 33px;
+}
+.trends_date{
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 22px;
+    margin: 10px 0;
+}
+.trends_dic{
+    width: 850px;
+    height: 200px;
+    font-size: 18px;
+    color: #999999;
+    line-height: 25px;
+    overflow: hidden;
+}
+.trends_words_show{
+    position:relative;
+    line-height:25px;
+    height: 200px;
+    overflow: hidden;
+}
+.trends_words_show span{
+    position: absolute;
+    font-weight: bold;
+    bottom: 0;
+    right: 0;
+    height: 25px;
+    padding:0 20px 1px 45px;
+    background:url(http://css88.b0.upaiyun.com/css88/2014/09/ellipsis_bg.png) repeat-y;
+}
+
+.read_all{
+    margin: 15px 0;
+}
+.read_all a{
+    font-size: 18px;
+    color: #999999;
+}
+.read_all a:hover{
+    color: #01af21;
+}
+.pack_up{
+    margin: 15px 0;
+}
+.pack_up a{
+    font-size: 18px;
+    color: #999999;
+}
+.pack_up a:hover{
+    color: #01af21;
+}
+
+.trends_list_btn{
+    width: 850px;
+    height: 340px;
+    float: left;
+    margin: 15px 30px 0;
+}
+.trends_list_btn button{
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    height: 50px;
+    border: none;
+    background-color: #01af21;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.trends_content_show{
+    width: 1120px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+
+
+

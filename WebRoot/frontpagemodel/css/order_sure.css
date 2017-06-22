@@ -1,0 +1,462 @@
+body{
+    background-color: #f2f2f2;
+}
+.main{
+    margin-bottom: 15px;
+}
+.member_top{
+    padding: 12px 0;
+    overflow: hidden;
+}
+.member_top img{
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+.member_top span{
+    font-size: 16px;
+    color: #666666;
+    line-height: 36px;
+    margin-left: 10px;
+}
+.shop_bar{
+    padding: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+}
+.goods_info{
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+    text-align: center;
+    border-left: #cccccc solid 1px;
+}
+.goods_info:first-child{
+    border-left: none;
+}
+.shop_bar .goods_name{
+    width: 590px;
+}
+.shop_bar .unit_price{
+    width: 189px;
+}
+.shop_bar .goods_num{
+    width: 189px;
+}
+.shop_bar .total{
+    width: 189px;
+}
+
+.shop_content{
+    margin: 10px 0 0;
+    padding-left: 40px;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+}
+.shop_list{
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: #cccccc solid 1px;
+}
+.shop_list:last-child{
+    border-bottom: none;
+}
+.shop_list_left{
+    float: left;
+    overflow: hidden;
+}
+.shop_list_pic{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.shop_list_pic img{
+    width: 80px;
+    height: 80px;
+}
+.shop_list_name{
+    width: 456px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 80px;
+    float: left;
+    margin-left: 35px;
+}
+.goods_info_list{
+    float: left;
+}
+.price_num{
+    width: 190px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 80px;
+    text-align: center;
+}
+.num{
+    width: 190px;
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    line-height: 80px;
+}
+.total_num{
+    width: 190px;
+    font-size: 16px;
+    color: #FF9900;
+    text-align: center;
+    line-height: 80px;
+}
+
+.total_money{
+    width: 1160px;
+    height: 50px;
+    padding: 15px 40px 15px 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+    margin-top: 10px;
+}
+.total_money span{
+    font-size: 16px;
+    color: #666666;
+    line-height: 50px;
+    float: right;
+}
+.total_money i{
+    width: 170px;
+    font-style: normal;
+    color: #ff9900;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    float: right;
+}
+.total_money button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    float: right;
+}
+
+/*快速注册*/
+.register_soon_main{
+    width: 100%;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.register_soon{
+    width: 570px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #333333;
+}
+.login_head{
+    font-size: 22px;
+    color: #ff9900;
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: #cccccc solid 1px;
+    position: relative;
+}
+.cancel_pic{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    cursor: pointer;
+}
+.cancel_pic img{
+    width: 28px;
+    height: 28px;
+}
+
+.register_content{
+    width: 440px;
+    margin: 35px auto 0;
+}
+.login_inp{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.login_inp_list{
+    height: 28px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: #cccccc solid 1px;
+    position: relative;
+    float: left;
+}
+.inp_test{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.inp_test .login_inp_list{
+    width: 190px;
+}
+.inp_test .login_inp_list input{
+    width: 147px;
+}
+.test_pic{
+    width: 170px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+.test_pic img{
+    width: 170px;
+    height: 60px;
+    vertical-align: middle;
+}
+.test_btn{
+    margin-bottom: 20px;
+}
+.test_btn .btn_moni{
+    width: 230px;
+    height: 50px;
+    outline: inherit;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login_icon{
+    float: left;
+}
+.login_icon img{
+    width: 28px;
+    height: 28px;
+}
+.input_main{
+    float: left;
+    margin-left: 15px;
+}
+.input_main input{
+    width: 355px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    outline: inherit;
+    border: none;
+    background-color: #ffffff;
+}
+.login_btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login_btn button{
+    width: 380px;
+    height: 50px;
+    outline: inherit;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.register_dic{
+    font-size: 13px;
+    color: #666666;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.register_dic a{
+    color: #ff9900;
+}
+
+/*加载*/
+.loading{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 150px;
+    z-index: 1;
+    display: none;
+}
+.loading_main{
+    width: 310px;
+    height: 170px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #333333;
+    padding: 20px 0;
+}
+.loading_pic{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    animation:rotate 2s infinite linear;
+}
+.loading_pic img{
+    width: 100px;
+    height: 100px;
+}
+.loading_word{
+    font-size: 22px;
+    color: #FF9900;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+@-moz-keyframes rotate{
+    0%{
+        -moz-transform:rotate(0deg);
+    }
+    100%{
+        -moz-transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@-ms-keyframes rotate{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+
+/*立即付款*/
+.pay_now{
+    width: 100%;
+    height: 490px;
+    position: fixed;
+    left: 0;
+    top: 150px;
+}
+.pay_now_main{
+    width: 570px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #333333;
+}
+.order_cancel_head{
+    padding: 25px 0;
+    overflow: hidden;
+    border-bottom: #cccccc solid 1px;
+}
+.order_cancel_head span{
+    width: 440px;
+    height: 30px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+    font-size: 22px;
+    color: #666666;
+    text-align: center;
+}
+.order_cancel_head img{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin: 1px 10px;
+    cursor: pointer;
+}
+.order_cancel_head .orange_font{
+    color: #FF9900;
+}
+.pay_now_content{
+    width: 520px;
+    margin: 0 auto;
+}
+.pay_info{
+    margin: 25px 0;
+    background-color: #f2f2f2;
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+}
+.pay_info_list{
+    padding: 20px 10px;
+    overflow: hidden;
+    border-bottom: #cccccc solid 1px;
+}
+.pay_info_list:last-child{
+    border-bottom: none;
+}
+.pay_info_list_left{
+    width: 98px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.pay_info_list_right{
+    width: 400px;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+}
+.pay_info_list_right .red_font{
+    color: #ff3300;
+}
+.other_way_head{
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+}
+.other_way_main{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.other_way_list{
+    width: 189px;
+    float: left;
+    border-left: #cccccc solid 1px;
+    cursor: pointer;
+}
+.other_way_list:first-child{
+    border-left: none;
+}
+.way_pic{
+    width: 100%;
+    text-align: center;
+}
+.way_pic img{
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+}
+.way_name{
+    width: 100%;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-top: 10px;
+}

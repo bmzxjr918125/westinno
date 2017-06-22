@@ -1,0 +1,955 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>会员中心</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="../css/basicCss/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../js/need/laydate.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/member_center.css"/>
+</head>
+<body>
+<!--顶部导航、登入等操作-->
+<div class="top">
+    <div class="top_main">
+        <div class="top_main_content">
+            <div class="top_main_left">
+                <div class="top_main_word">
+                    <a href="javascript:;">成都东唐智盛企业管理咨询</a><span>旗下平台</span>
+                </div>
+                <div class="black_white_line" style="float: left;"></div>
+                <div class="two_dimension">
+                    <div class="two_dimension_btn">
+                        <img src="../images/erweima_small.png" alt=""/>
+                        <span>关注WESTINNO微信公众号</span>
+                    </div>
+                    <div class="two_dimension_gap">
+                        <div class="two_dimension_pic">
+                            <img src="../images/erweima.png" alt=""/>
+                            <div class="two_dimension_word">
+                                <span>扫一扫关注WESTINNO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_main_right">
+                <div class="quit">
+                    <div class="login_operate">
+                        <a href="javascript:;">退出</a>
+                    </div>
+                    <div class="black_white_line"></div>
+                </div>
+                <div class="login_operate">
+                    <a href="javascript:;">购物车<span class="buy_num">0</span></a>
+                </div>
+                <div class="black_white_line"></div>
+                <div class="login_operate">
+                    <a href="javascript:;">免费注册</a>
+                </div>
+                <div class="black_white_line"></div>
+                <div class="login_operate">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_bar">
+        <div class="head_bar_content">
+            <div class="bar_logo">
+                <img src="../images/west.png" alt=""/>
+            </div>
+            <div class="bar_bank">
+                <div class="bar_list">
+                    <a href="javascript:;">首页</a>
+                </div>
+                <div class="bar_list">
+                    <a class="active" href="javascript:;">双创服务</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">知识产权</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">行业资讯</a>
+                </div>
+                <div class="search_area">
+                    <div class="search_area_content">
+                        <input type="text" placeholder="站内搜索"/>
+                        <img src="../images/u202.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="content">
+        <div class="member_top">
+            <img src="../images/member.png" alt=""/>
+            <span>会员中心</span>
+        </div>
+        <div class="member_content">
+            <div class="member_left">
+                <div class="member_list active">
+                    <span>消息中心 (</span><i> 2 </i><span> ) </span>
+                </div>
+                <div class="member_list my_info_btn">
+                    <span>我的资料</span>
+                </div>
+                <div class="member_list">
+                    <span>我的订单</span>
+                </div>
+                <div class="member_list">
+                    <span>我的收藏</span>
+                </div>
+                <div class="member_list">
+                    <span>账户管理</span>
+                </div>
+            </div>
+            <div class="member_right">
+                <div class="member_show" style="display: block;">
+                    <!--消息中心-->
+                    <div class="news_center">
+                        <div class="news_top">
+                            <div class="news_type">
+                                <span class="active">未读</span>
+                            </div>
+                            <div class="news_type">
+                                <span>已读</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_show">
+                                <div class="news_list">
+                                    <div class="news_list_left">
+                                        <a href="javascript:;">创新基金（科技型中小企业发展专项资金）</a>
+                                    </div>
+                                    <div class="news_list_mid">
+                                        <span>2016-10-16</span>
+                                    </div>
+                                    <div class="news_list_right">
+                                        <span>标记已读</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news_show" style="display: none;">
+                                <div class="news_list">
+                                    <div class="news_list_left">
+                                        <a href="javascript:;">创新基金（科技型中小企业发展专项资金）</a>
+                                    </div>
+                                    <div class="news_list_mid">
+                                        <span>2016-10-16</span>
+                                    </div>
+                                    <div class="news_list_right">
+                                        <span>标记已读</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member_show" style="display: none;">
+                    <!--我的资料-->
+                    <div class="my_info">
+                        <div class="my_info_content">
+                            <div class="my_info_top">
+                                <div class="my_info_pic">
+                                    <img src="../images/u62.png" alt=""/>
+                                    <span>18030468751</span>
+                                </div>
+                                <div class="info_replay">
+                                    <a href="javascript:;">修改资料</a>
+                                </div>
+                            </div>
+                            <div class="info_main">
+                                <div class="info_show" style="display: block;">
+                                    <div class="info_show_content">
+                                        <div class="info_list">
+                                            <div class="info_list_left">
+                                                <span>用户姓名:</span>
+                                            </div>
+                                            <div class="info_list_right">
+                                                <span>18030468751</span>
+                                            </div>
+                                        </div>
+                                        <div class="info_list">
+                                            <div class="info_list_left">
+                                                <span>性别:</span>
+                                            </div>
+                                            <div class="info_list_right">
+                                                <span>男</span>
+                                            </div>
+                                        </div>
+                                        <div class="info_list">
+                                            <div class="info_list_left">
+                                                <span>手机号码:</span>
+                                            </div>
+                                            <div class="info_list_right">
+                                                <span>18030468751</span>
+                                            </div>
+                                        </div>
+                                        <div class="info_list">
+                                            <div class="info_list_left">
+                                                <span>电子邮箱:</span>
+                                            </div>
+                                            <div class="info_list_right">
+                                                <span>77777</span>
+                                            </div>
+                                        </div>
+                                        <div class="info_list">
+                                            <div class="info_list_left">
+                                                <span>QQ:</span>
+                                            </div>
+                                            <div class="info_list_right">
+                                                <span>18030468751</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info_show" style="display: none;">
+                                    <div class="replay_show_content">
+                                        <div class="replay_list">
+                                            <div class="replay_list_left">
+                                                <span>用户姓名：</span>
+                                            </div>
+                                            <div class="replay_list_right">
+                                                <input class="userName" required="required" type="text" placeholder="输入您的尊姓大名"/>
+                                            </div>
+                                            <div class="must_icon">
+                                                <span>*</span>
+                                            </div>
+                                        </div>
+                                        <div class="replay_list">
+                                            <div class="replay_list_left">
+                                                <span>性别：</span>
+                                            </div>
+                                            <div class="replay_list_right" style="border: none;">
+                                                <div class="sex_choice">
+                                                    <input type="radio" checked="true" name="sex" placeholder=""/><span>先生</span>
+                                                </div>
+                                                <div class="sex_choice">
+                                                    <input type="radio" name="sex" placeholder=""/><span>女士</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="replay_list">
+                                            <div class="replay_list_left">
+                                                <span>手机号码：</span>
+                                            </div>
+                                            <div class="replay_list_right">
+                                                <input class="telNum" required="required" type="text" placeholder="请输入您的手机号码"/>
+                                            </div>
+                                            <div class="must_icon">
+                                                <span>*</span>
+                                            </div>
+                                        </div>
+                                        <div class="replay_list">
+                                            <div class="replay_list_left">
+                                                <span>电子邮箱：</span>
+                                            </div>
+                                            <div class="replay_list_right">
+                                                <input class="emailNum" required="required" type="text" placeholder="输入您的电子邮箱号码"/>
+                                            </div>
+                                            <div class="must_icon">
+                                                <span>*</span>
+                                            </div>
+                                        </div>
+                                        <div class="replay_list">
+                                            <div class="replay_list_left">
+                                                <span>QQ：</span>
+                                            </div>
+                                            <div class="replay_list_right">
+                                                <input class="qqNum" type="text" placeholder="输入您的QQ号码"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="replay_btn">
+                                        <button class="gray_btn_c cancel_btn">取消</button>
+                                        <button class="orange_btn_9 save_info">保存资料</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member_show" style="display: none;">
+                    <!--我的订单-->
+                    <div class="my_order">
+                        <div class="order_top">
+                            <div class="apply_service">
+                                <span>申请服务:</span>
+                                <div class="service_search">
+                                    <input type="text" placeholder="输入服务名称搜索"/>
+                                </div>
+                            </div>
+                            <div class="order_state">
+                                <span class="order_state_span">订单状态:</span>
+                                <div class="state_choice">
+                                    <span class="standard_select">
+                                        <span class="select_shelter">
+                                            <select name="state" id="">
+                                                <option value="1">全部订单</option>
+                                                <option value="2">全部订单</option>
+                                                <option value="3">全部订单</option>
+                                                <option value="4">全部订单</option>
+                                            </select>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="deal_time">
+                                <span>成交时间:</span>
+                                <div class="time_choice">
+                                    <ul class="inline">
+                                        <li class="inline" id="start">2016-04-01</li>
+                                        <li class="aim"><span>到</span></li>
+                                        <li class="inline" id="end">2016-04-01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="search_btn">
+                                <button class="orange_btn_9">查询</button>
+                            </div>
+                        </div>
+                        <div class="order_main">
+                            <div class="order_list_top">
+                                <div class="order_num float_l">
+                                    <span>订单号</span>
+                                </div>
+                                <div class="service_name float_l">
+                                    <span>服务名称</span>
+                                </div>
+                                <div class="money_num float_l">
+                                    <span>金额(￥)</span>
+                                </div>
+                                <div class="time float_l">
+                                    <span>时间</span>
+                                </div>
+                                <div class="state float_l">
+                                    <span>状态</span>
+                                </div>
+                                <div class="operate float_l">
+                                    <span>操作</span>
+                                </div>
+                            </div>
+                            <div class="order_list_content">
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>待完善资料</span>
+                                    </div>
+                                    <div class="operate float_l">
+                                        <a class="complete_info orange_font" href="javascript:;">完善资料</a>
+                                        <a class="cancel_btn gray_font" href="javascript:;">取消</a>
+                                    </div>
+                                </div>
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>待付款</span>
+                                    </div>
+                                    <div class="operate float_l">
+                                        <a class="pay_now_btn orange_font" href="javascript:;">立即付款</a>
+                                        <a class="contact_service orange_font" href="javascript:;">联系客服</a>
+                                        <a class="cancel_btn gray_font" href="javascript:;">取消</a>
+                                    </div>
+                                </div>
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>进行中</span>
+                                    </div>
+                                    <div class="operate float_l">
+                                        <a class="my_service orange_font" href="javascript:;">我的客服</a>
+                                    </div>
+                                </div>
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>进行中</span>
+                                    </div>
+                                    <div class="operate float_l">
+                                        <a class="cancel_btn gray_font" href="javascript:;">取消</a>
+                                    </div>
+                                </div>
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>进行中</span>
+                                    </div>
+                                    <div class="operate float_l">
+
+                                    </div>
+                                </div>
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>进行中</span>
+                                    </div>
+                                    <div class="operate float_l">
+
+                                    </div>
+                                </div>
+                                <div class="order_list">
+                                    <div class="order_num float_l">
+                                        <span>1603141040191535</span>
+                                    </div>
+                                    <div class="service_name float_l">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="money_num float_l">
+                                        <span>7,000.00</span>
+                                    </div>
+                                    <div class="time float_l">
+                                        <span>2016-03-14</span>
+                                    </div>
+                                    <div class="state float_l">
+                                        <span>进行中</span>
+                                    </div>
+                                    <div class="operate float_l">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member_show" style="display: none;">
+                    <!--我的收藏-->
+                    <div class="my_collect">
+                        <div class="my_collect_top">
+                            <div class="collect_type goods_name">
+                                <span>商品名称</span>
+                            </div>
+                            <div class="collect_type good_reception">
+                                <span>好评率</span>
+                            </div>
+                            <div class="collect_type collect_operate">
+                                <span>操作</span>
+                            </div>
+                        </div>
+                        <div class="collect_content">
+                            <div class="collect_list">
+                                <div class="collect_list_pic">
+                                    <img src="../images/collect.png" alt=""/>
+                                </div>
+                                <div class="collect_list_right">
+                                    <div class="collect_name">
+                                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                                    </div>
+                                    <div class="collect_reception">
+                                        <span>100%</span>
+                                    </div>
+                                    <div class="collect_cancel">
+                                        <span>取消收藏</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member_show" style="display: none;">
+                    <!--账户管理-->
+                    <div class="user_manage">
+                        <!--账户管理首页-->
+                        <div class="user_show user_info_main" style="display: none;">
+                            <div class="user_info">
+                                <div class="user_info_list">
+                                    <div class="user_info_left">
+                                        <div class="user_info_pic">
+                                            <img src="../images/u62.png" alt=""/>
+                                        </div>
+                                        <div class="user_info_dic">
+                                            <span>手机绑定</span>
+                                            <i>1803015644441</i>
+                                        </div>
+                                    </div>
+                                    <div class="user_info_right">
+                                        <a class="replace_tel_btn" href="javascript:;">更换手机</a>
+                                    </div>
+                                </div>
+                                <div class="user_info_list">
+                                    <div class="user_info_left">
+                                        <div class="user_info_pic">
+                                            <img src="../images/u62.png" alt=""/>
+                                        </div>
+                                        <div class="user_info_dic">
+                                            <span>登录密码</span>
+                                            <i>1803015644441</i>
+                                        </div>
+                                    </div>
+                                    <div class="user_info_right">
+                                        <a class="replace_psd_btn" href="javascript:;">修改密码</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--更换手机-->
+                        <div class="user_show replace_tel_main" style="display: none;">
+                            <div class="replace_tel">
+                                <div class="replace_tel_head">
+                                    <div class="replace_head_type">
+                                        <span>更换手机</span>
+                                    </div>
+                                    <div class="replace_tel_pic">
+                                        <img class="cancel_btn" src="../images/cancel.png" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="info_main">
+                                    <div class="login_inp">
+                                        <div class="login_inp_list">
+                                            <div class="login_icon">
+                                                <img src="../images/ID.png" alt=""/>
+                                            </div>
+                                            <div class="input_main">
+                                                <input type="text" placeholder="输入手机号码"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inp_test">
+                                        <div class="login_inp_list">
+                                            <div class="login_icon">
+                                                <img src="../images/ID.png" alt=""/>
+                                            </div>
+                                            <div class="input_main">
+                                                <input type="text" placeholder="输入验证码"/>
+                                            </div>
+                                        </div>
+                                        <div class="test_pic">
+                                            <img src="../images/u26(1).png" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="test_btn">
+                                        <button class="gray_btn_9">获取短信验证码</button>
+                                    </div>
+                                    <div class="login_inp">
+                                        <div class="login_inp_list">
+                                            <div class="login_icon">
+                                                <img src="../images/ID.png" alt=""/>
+                                            </div>
+                                            <div class="input_main">
+                                                <input type="text" placeholder="输入您收到的手机验证码"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="login_btn tel_sure_btn">
+                                        <button class="orange_btn_9">确认更换手机</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user_show replace_psd_main">
+                            <div class="replace_tel">
+                                <div class="replace_tel_head">
+                                    <div class="replace_head_type">
+                                        <span>更换密码</span>
+                                    </div>
+                                    <div class="replace_tel_pic">
+                                        <img class="cancel_btn" src="../images/cancel.png" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="info_main">
+                                    <div class="login_inp">
+                                        <div class="login_inp_list">
+                                            <div class="login_icon">
+                                                <img src="../images/ID.png" alt=""/>
+                                            </div>
+                                            <div class="input_main">
+                                                <input type="text" placeholder="输入您之前的登录密码"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="login_inp">
+                                        <div class="login_inp_list">
+                                            <div class="login_icon">
+                                                <img src="../images/ID.png" alt=""/>
+                                            </div>
+                                            <div class="input_main">
+                                                <input type="text" placeholder="输入您新的登录密码"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="login_inp">
+                                        <div class="login_inp_list">
+                                            <div class="login_icon">
+                                                <img src="../images/ID.png" alt=""/>
+                                            </div>
+                                            <div class="input_main">
+                                                <input type="text" placeholder="再次输入您新的登录密码"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="login_btn psd_sure_btn">
+                                        <button class="orange_btn_9">更换密码</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap" style="display: none;"></div>
+<!--取消订单-->
+<div class="cancel_main" style="display: none;">
+    <div class="order_cancel">
+        <div class="order_cancel_head">
+            <span>取消订单</span>
+            <img class="cancel_btn" src="../images/cancel.png" alt=""/>
+        </div>
+        <div class="order_cancel_main">
+            <div class="order_cancel_tip">
+                <span>亲!能告诉我们您取消订单的原因吗?我们一定会好好更正的!</span>
+            </div>
+            <div class="order_cancel_reason">
+                <div class="reason_list">
+                    <span>不想买了</span>
+                    <img class="yes" src="../images/choice2.png" alt=""/>
+                </div>
+                <div class="reason_list">
+                    <span>不想买了</span>
+                    <img src="../images/choice1.png" alt=""/>
+                </div>
+                <div class="reason_list">
+                    <span>不想买了</span>
+                    <img src="../images/choice1.png" alt=""/>
+                </div>
+                <div class="reason_list">
+                    <span>不想买了</span>
+                    <img src="../images/choice1.png" alt=""/>
+                </div>
+            </div>
+            <div class="order_btn">
+                <button class="gray_btn_c cancel_order_btn">取消订单</button><button class="orange_btn_9 think_more_btn">再想想</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--立即付款-->
+<div class="pay_now" style="display: none;">
+    <div class="pay_now_main">
+        <div class="order_cancel_head">
+            <span class="orange_font">立即付款</span>
+            <img class="cancel_btn" src="../images/cancel.png" alt=""/>
+        </div>
+        <div class="pay_now_content">
+            <div class="pay_info">
+                <div class="pay_info_list">
+                    <div class="pay_info_list_left">
+                        <span>商品名称：</span>
+                    </div>
+                    <div class="pay_info_list_right">
+                        <span>创新基金(科技型中小企业发展专项资金)</span>
+                    </div>
+                </div>
+                <div class="pay_info_list">
+                    <div class="pay_info_list_left">
+                        <span>订单号：</span>
+                    </div>
+                    <div class="pay_info_list_right">
+                        <span>1603141040191535</span>
+                    </div>
+                </div>
+                <div class="pay_info_list">
+                    <div class="pay_info_list_left">
+                        <span>金额(￥)：</span>
+                    </div>
+                    <div class="pay_info_list_right">
+                        <span class="red_font">7,000.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="other_way">
+            <div class="other_way_head">
+                <span>您可以选择下列支付方式</span>
+            </div>
+            <div class="other_way_main">
+                <div class="other_way_list">
+                    <div class="way_pic">
+                        <img src="../images/pay.png" alt=""/>
+                    </div>
+                    <div class="way_name">
+                        <span>支付宝支付</span>
+                    </div>
+                </div>
+                <div class="other_way_list">
+                    <div class="way_pic">
+                        <img src="../images/weixin.png" alt=""/>
+                    </div>
+                    <div class="way_name">
+                        <span>微信支付</span>
+                    </div>
+                </div>
+                <div class="other_way_list">
+                    <div class="way_pic">
+                        <img src="../images/bank.png" alt=""/>
+                    </div>
+                    <div class="way_name">
+                        <span>银联支付</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--客服-->
+<div class="service_gap" style="display: none;">
+    <div class="service_gap_main">
+        <div class="head_pic_content">
+            <div class="head_pic">
+                <img src="../images/N1.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="cancel_btn_pic">
+            <img class="cancel_btn" src="../images/cancel.png" alt=""/>
+        </div>
+        <div class="service_gap_name">
+            <span>王尼玛</span>
+        </div>
+        <div class="service_info">
+            <div class="service_info_list">
+                <div class="service_info_pic">
+                    <img src="../images/qq_small.png" alt=""/>
+                </div>
+                <div class="service_info_num">
+                    <span>447200109</span>
+                </div>
+            </div>
+            <div class="service_info_list">
+                <div class="service_info_pic">
+                    <img src="../images/email_small.png" alt=""/>
+                </div>
+                <div class="service_info_num">
+                    <span>44720109@qq.com</span>
+                </div>
+            </div>
+            <div class="service_info_list">
+                <div class="service_info_pic">
+                    <img src="../images/tel_small.png" alt=""/>
+                </div>
+                <div class="service_info_num">
+                    <span>18030468751</span>
+                </div>
+            </div>
+        </div>
+        <div class="service_btn">
+            <button class="orange_btn_9">联系TA</button>
+        </div>
+    </div>
+</div>
+
+<!--底部链接-->
+<div class="bottom">
+    <div class="bottom_content">
+        <div class="bottom_about">
+            <div class="bottom_about_content">
+                <div class="about_head">
+                    <span>关于我们</span>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">公司简介</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">联系我们</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">加入我们</a>
+                </div>
+            </div>
+            <div class="bottom_about_content">
+                <div class="about_head">
+                    <span>服务咨询</span>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">项目申报</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">知识产权</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">创业服务</a>
+                </div>
+            </div>
+            <div class="bottom_about_content">
+                <div class="about_head">
+                    <span>帮助中心</span>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">常见问题</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">自助服务</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_link">
+            <div class="bottom_link_list">
+                <div class="bottom_link_pic">
+                    <img src="../images/tel.png" alt=""/>
+                </div>
+                <div class="black_white_line2"></div>
+                <div class="bottom_link_num">
+                    <div class="link_num_top">
+                        <span>400-00-2763</span>
+                    </div>
+                    <div class="link_num_time">
+                        <p>周一至周五</p>
+                        <p>9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_link_list">
+                <div class="bottom_link_pic">
+                    <img src="../images/QQ.png" alt=""/>
+                </div>
+                <div class="black_white_line2"></div>
+                <div class="bottom_link_num">
+                    <div class="link_num_top">
+                        <span>2691981534</span>
+                    </div>
+                    <div class="link_num_time">
+                        <p>客服QQ:</p>
+                        <p>9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_erweima">
+            <img src="../images/erweima.png" alt=""/>
+        </div>
+    </div>
+    <div class="copy">
+        <span>© COPYRIGHT 东唐|EASTOW INNOVATION 蜀ICP备13019988号-1</span>
+    </div>
+</div>
+<script type="text/javascript" src="../js/basicJS/jquery.js"></script>
+<script type="text/javascript" src="../js/basicJS/common.js"></script>
+<script type="text/javascript" src="../js/laydate.js"></script>
+<script type="text/javascript" src="../js/member_center.js"></script>
+<script>
+    !function(){
+        laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+        laydate({elem: '#demo'});//绑定元素
+    }();
+
+    //日期范围限制
+    var start = {
+        elem: '#start',
+        format: 'YYYY-MM-DD',
+//        min: laydate.now(), //设定最小日期为当前日期
+//        max: '2099-06-16', //最大日期
+        istime: true,
+        istoday: false,
+        choose: function(datas){
+            end.min = datas; //开始日选好后，重置结束日的最小日期
+            end.start = datas; //将结束日的初始值设定为开始日
+        }
+    };
+
+    var end = {
+        elem: '#end',
+        format: 'YYYY-MM-DD',
+//        min: laydate.now(),
+//        max: '2099-06-16',
+        istime: true,
+        istoday: false,
+        choose: function(datas){
+            start.max = datas; //结束日选好后，充值开始日的最大日期
+        }
+    };
+    laydate(start);
+    laydate(end);
+
+    //自定义日期格式
+    laydate({
+        elem: '#test1',
+        format: 'YYYY年MM月DD日',
+        festival: true, //显示节日
+        choose: function(datas){ //选择日期完毕的回调
+            alert('得到：'+datas);
+        }
+    });
+
+    //日期范围限定在昨天到明天
+    laydate({
+        elem: '#hello3',
+        min: laydate.now(-1), //-1代表昨天，-2代表前天，以此类推
+        max: laydate.now(+1) //+1代表明天，+2代表后天，以此类推
+    });
+</script>
+</body>
+</html>

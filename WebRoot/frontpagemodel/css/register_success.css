@@ -1,0 +1,61 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.login_main{
+    padding: 30px;
+    border-top: #f2f2f2 solid 1px;
+}
+.content{
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+    padding: 10px 0;
+}
+
+.success_pic{
+    width: 60px;
+    height: 60px;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.success_pic img{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+.success_tip1{
+    font-size: 24px;
+    color: #ff9900;
+    text-align: center;
+}
+.success_word{
+    margin-bottom: 90px;
+}
+.success_word p{
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    padding: 15px 0 0;
+}
+.success_word p span{
+    color: #ff9900;
+}
+.success_tip{
+    font-size: 14px;
+    color: #cccccc;
+    text-align: center;
+}
+.complete_info{
+    padding: 15px 0;
+    text-align: center;
+}
+.complete_info a{
+    font-size: 14px;
+    color: #66ccff;
+}
+
+.copy{
+    margin-top: 10px;
+}

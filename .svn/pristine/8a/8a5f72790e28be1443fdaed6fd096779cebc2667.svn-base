@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="../css/basicCss/common.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../css/basicCss/swiper.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+</head>
+<body>
+<!--顶部导航、登入等操作-->
+<div class="top">
+    <div class="top_main">
+        <div class="top_main_content">
+            <div class="top_main_left">
+                <div class="top_main_word">
+                    <a href="javascript:;">成都东唐智盛企业管理咨询</a><span>旗下平台</span>
+                </div>
+                <div class="black_white_line" style="float: left;"></div>
+                <div class="two_dimension">
+                    <div class="two_dimension_btn">
+                        <img src="../images/erweima_small.png" alt=""/>
+                        <span>关注WESTINNO微信公众号</span>
+                    </div>
+                    <div class="two_dimension_gap">
+                        <div class="two_dimension_pic">
+                            <img src="../images/erweima.png" alt=""/>
+                            <div class="two_dimension_word">
+                                <span>扫一扫关注WESTINNO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_main_right">
+                <div class="quit">
+                    <div class="black_white_line"></div>
+                    <div class="login_operate">
+                        <a href="javascript:;">退出</a>
+                    </div>
+                </div>
+                <div class="login_operate">
+                    <a href="javascript:;">购物车<span class="buy_num">0</span></a>
+                </div>
+                <div class="black_white_line"></div>
+                <div class="login_operate">
+                    <a href="javascript:;">免费注册</a>
+                </div>
+                <div class="black_white_line"></div>
+                <div class="login_operate">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_bar">
+        <div class="head_bar_content">
+            <div class="bar_logo">
+                <img src="../images/west.png" alt=""/>
+            </div>
+            <div class="bar_bank">
+                <div class="bar_list">
+                    <a class="active" href="javascript:;">首页</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">双创服务</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">知识产权</a>
+                </div>
+                <div class="bar_list">
+                    <a href="javascript:;">行业资讯</a>
+                </div>
+                <div class="search_area">
+                    <div class="search_area_content">
+                        <input type="text" placeholder="站内搜索"/>
+                        <img src="../images/u202.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中间blank、导航-->
+<div class="mid_bar">
+    <div class="play_pic">
+        <div class="swiper-container">
+            <div class="swiper-wrapper play_pic1">
+                <div class="swiper-slide">
+                    <img src="../images/bar1.png" alt=""/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/bar2.png" alt=""/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/bar3.png" alt=""/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/bar4.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bar_main">
+        <div class="bar_content">
+            <div class="bar_content_show">
+                <!--<div class="bar_back"></div>-->
+                <div class="bar_left">
+                    <div class="bar_content_list service_btn">
+                        <div class="bar_back"></div>
+                        <div class="bar_content_list_main">
+                            <div class="bar_icon">
+                                <div class="bar_icon_show">
+                                    <img src="../images/shuangchuang_black.png" alt=""/>
+                                    <img src="../images/shuangchuang_white.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="bar_type">
+                                <div class="bar_type_top">
+                                    <span>双创服务</span>
+                                </div>
+                                <div class="bar_type_bottom">
+                                    <span>服务费：</span><i>2999</i> <span>起</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar_content_list knowledge_btn">
+                        <div class="bar_back"></div>
+                        <div class="bar_content_list_main">
+                            <div class="bar_icon">
+                                <div class="bar_icon_show">
+                                    <img src="../images/zhishi_black.png" alt=""/>
+                                    <img src="../images/zhishi_white.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="bar_type">
+                                <div class="bar_type_top">
+                                    <span>专利服务</span>
+                                </div>
+                                <div class="bar_type_bottom">
+                                    <span>服务费：</span><i>2999</i> <span>起</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar_content_list project_btn">
+                        <div class="bar_back"></div>
+                        <div class="bar_content_list_main">
+                            <div class="bar_icon">
+                                <div class="bar_icon_show">
+                                    <img src="../images/xiangmu_black.png" alt=""/>
+                                    <img src="../images/xiangmu_white.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="bar_type">
+                                <div class="bar_type_top">
+                                    <span>商标服务</span>
+                                </div>
+                                <div class="bar_type_bottom">
+                                    <span>服务费：</span><i>2999</i> <span>起</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar_content_list service_btn">
+                        <div class="bar_back"></div>
+                        <div class="bar_content_list_main">
+                            <div class="bar_icon">
+                                <div class="bar_icon_show">
+                                    <img src="../images/shuangchuang_black.png" alt=""/>
+                                    <img src="../images/shuangchuang_white.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="bar_type">
+                                <div class="bar_type_top">
+                                    <span>版权服务</span>
+                                </div>
+                                <div class="bar_type_bottom">
+                                    <span>服务费：</span><i>2999</i> <span>起</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<!--选择我们的原因-->
+<div class="choice_main">
+    <div class="choice_content">
+        <div class="choice_top">
+            <div class="mid_line"></div>
+            <div class="choice_word_content">
+                <div class="choice_word">
+                    <h1>热门推荐</h1>
+                    <span>Hot Recommend</span>
+                </div>
+            </div>
+        </div>
+        <div class="choice_show">
+            <div class="choice_list">
+                <div class="choice_list_pic">
+                    <img src="../images/experience.png" alt=""/>
+                </div>
+                <div class="choice_list_word">
+                    <span>企业初创</span>
+                </div>
+                <div class="choice_list_dic">
+                    <p>公司注册、代理记账、合同审写</p>
+                    <p>西创服务中心通通为你搞定</p>
+                </div>
+                <div class="order_shunxu">
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>公司注册</span>
+                    </div>
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>代理记账</span>
+                    </div>
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>合同审写</span>
+                    </div>
+                </div>
+            </div>
+            <div class="choice_list">
+                <div class="choice_list_pic">
+                    <img src="../images/plan.png" alt=""/>
+                </div>
+                <div class="choice_list_word">
+                    <span>成长初期</span>
+                </div>
+                <div class="choice_list_dic">
+                    <p>商标注册、专利申请、版权登记</p>
+                    <p>助力企业布局知识产权战略体系</p>
+                </div>
+                <div class="order_shunxu">
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>商标注册</span>
+                    </div>
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>专利申请</span>
+                    </div>
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>版权登记</span>
+                    </div>
+                </div>
+            </div>
+            <div class="choice_list">
+                <div class="choice_list_pic">
+                    <img src="../images/platform.png" alt=""/>
+                </div>
+                <div class="choice_list_word">
+                    <span>稳步发展</span>
+                </div>
+                <div class="choice_list_dic">
+                    <p>项目申报、税收筹划、审计验资</p>
+                    <p>精细化企业发展相应需求</p>
+                </div>
+                <div class="order_shunxu">
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>项目申报</span>
+                    </div>
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>税收筹划</span>
+                    </div>
+                    <div class="order_shunxu_list">
+                        <img src="../images/u288.png" alt=""/>
+                        <span>审计验资</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--听他们怎么说-->
+<div class="listen_main">
+    <div class="listen_content">
+        <div class="listen_content_head">
+            <h1>用户评价</h1>
+        </div>
+        <div class="say_word_main">
+            <div class="say_word">
+                <div class="say_word_content">
+                    <span>在没有接触到WESTINNO前，觉得创业扶持的都是政府在做政绩工程，自从和他们接触以来，我们才了解到双创是真正落实到我们创业人群中的巨大利好，希望WESTINNO继续一如既往的帮助我们这样的小企业。1</span>
+                    <span>在没有接触到WESTINNO前，觉得创业扶持的都是政府在做政绩工程，自从和他们接触以来，我们才了解到双创是真正落实到我们创业人群中的巨大利好，希望WESTINNO继续一如既往的帮助我们这样的小企业。2</span>
+                    <span>在没有接触到WESTINNO前，觉得创业扶持的都是政府在做政绩工程，自从和他们接触以来，我们才了解到双创是真正落实到我们创业人群中的巨大利好，希望WESTINNO继续一如既往的帮助我们这样的小企业。3</span>
+                    <span>在没有接触到WESTINNO前，觉得创业扶持的都是政府在做政绩工程，自从和他们接触以来，我们才了解到双创是真正落实到我们创业人群中的巨大利好，希望WESTINNO继续一如既往的帮助我们这样的小企业。4</span>
+                </div>
+
+            </div>
+            <div class="sanjiao_white"></div>
+        </div>
+        <div class="say_person">
+            <div class="say_person_content">
+                <div class="say_person_main">
+                    <div class="say_person_list">
+                        <div class="person_pic">
+                            <img src="../images/pay.png" alt=""/>
+                        </div>
+                        <div class="person_name">
+                            <span>李沁宇</span>
+                        </div>
+                        <div class="person_company">
+                            <span>成都逸桥科技有限公司 CEO</span>
+                        </div>
+                    </div>
+                    <div class="say_person_list">
+                        <div class="person_pic">
+                            <img src="../images/pay.png" alt=""/>
+                        </div>
+                        <div class="person_name">
+                            <span>李沁宇</span>
+                        </div>
+                        <div class="person_company">
+                            <span>成都逸桥科技有限公司 CEO</span>
+                        </div>
+                    </div>
+                    <div class="say_person_list">
+                        <div class="person_pic">
+                            <img src="../images/pay.png" alt=""/>
+                        </div>
+                        <div class="person_name">
+                            <span>李沁宇</span>
+                        </div>
+                        <div class="person_company">
+                            <span>成都逸桥科技有限公司 CEO</span>
+                        </div>
+                    </div>
+                    <div class="say_person_list">
+                        <div class="person_pic">
+                            <img src="../images/pay.png" alt=""/>
+                        </div>
+                        <div class="person_name">
+                            <span>李沁宇</span>
+                        </div>
+                        <div class="person_company">
+                            <span>成都逸桥科技有限公司 CEO</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="button_prev say_btn">
+                    <img src="../images/u97.png" alt=""/>
+                </button>
+                <button class="button_next say_btn">
+                    <img src="../images/u98.png" alt=""/>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--服务宗旨-->
+<div class="service_aim">
+    <div class="service_aim_content">
+        <div class="service_aim_left">
+            <div class="service_aim_pic">
+                <img src="../images/u340.png" alt=""/>
+            </div>
+            <div class="service_aim_dic">
+                <p>WESTINNO</p>
+                <p>服务宗旨</p>
+            </div>
+        </div>
+        <div class="service_aim_right">
+            <p>深挖企业价值，关怀培育企业成长的每一阶段，打造聚合西部地区创新创业资源的综合性服务平台是西部创新创业服务中的服务宗旨。通过运用互联网的力量，以快速、高效、专业的服务态度积极响应客户的需求，关注企业成长，深挖企业价值，从而达到建设基于“互联网+”形态下的综合性企业服务平台的目标，为更多企业提供全方位的创新创业服务。</p>
+        </div>
+    </div>
+</div>
+
+<!--看看我们的伙伴-->
+<div class="look_main">
+    <div class="look_content">
+        <div class="choice_top">
+            <div class="mid_line"></div>
+            <div class="choice_word_content">
+                <div class="choice_word" style="background-color: #ffffff;">
+                    <h1>再看看我们伙伴</h1>
+                    <span>OUR COOPERATION COMPANY</span>
+                </div>
+            </div>
+        </div>
+        <div class="brand_main">
+            <div class="brand_content">
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/s2.jpg" alt=""/>
+                            <img src="../images/s1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/D2.jpg" alt=""/>
+                            <img src="../images/D1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/N2.jpg" alt=""/>
+                            <img src="../images/N1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/Z2.jpg" alt=""/>
+                            <img src="../images/Z1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/SS2.jpg" alt=""/>
+                            <img src="../images/SS1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brand_content">
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/c2.jpg" alt=""/>
+                            <img src="../images/c1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/H2.jpg" alt=""/>
+                            <img src="../images/H1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/N2.jpg" alt=""/>
+                            <img src="../images/N1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/Z2.jpg" alt=""/>
+                            <img src="../images/Z1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand_list">
+                    <div class="brand_list_content">
+                        <div class="brand_list_show">
+                            <img src="../images/SS2.jpg" alt=""/>
+                            <img src="../images/SS1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--West信息-->
+<div class="info_main">
+    <div class="info_content">
+        <div class="info_logo">
+            <img src="../images/west2.png" alt=""/>
+        </div>
+        <div class="info_time">
+            <span>一站式创业服务平台</span>
+        </div>
+        <div class="info_num">
+            <div class="info_num_list">
+                <span>服务企业1500+家</span>
+            </div>
+            <div class="info_num_list">
+                <span>7*24小时售后服务支持</span>
+            </div>
+            <div class="info_num_list">
+                <span>互联网化的服务平台</span>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature_list">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--底部链接-->
+<div class="bottom">
+    <div class="bottom_content">
+        <div class="bottom_about">
+            <div class="bottom_about_content">
+                <div class="about_head">
+                    <span>关于我们</span>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">公司简介</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">联系我们</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">加入我们</a>
+                </div>
+            </div>
+            <div class="bottom_about_content">
+                <div class="about_head">
+                    <span>服务咨询</span>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">项目申报</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">知识产权</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">创业服务</a>
+                </div>
+            </div>
+            <div class="bottom_about_content">
+                <div class="about_head">
+                    <span>帮助中心</span>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">常见问题</a>
+                </div>
+                <div class="about_list">
+                    <a href="javascript:;">自助服务</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_link">
+            <div class="bottom_link_list">
+                <div class="bottom_link_pic">
+                    <img src="../images/tel.png" alt=""/>
+                </div>
+                <div class="black_white_line2"></div>
+                <div class="bottom_link_num">
+                    <div class="link_num_top">
+                        <span>400-00-2763</span>
+                    </div>
+                    <div class="link_num_time">
+                        <p>周一至周五</p>
+                        <p>9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_link_list">
+                <div class="bottom_link_pic">
+                    <img src="../images/QQ.png" alt=""/>
+                </div>
+                <div class="black_white_line2"></div>
+                <div class="bottom_link_num">
+                    <div class="link_num_top">
+                        <span>2691981534</span>
+                    </div>
+                    <div class="link_num_time">
+                        <p>客服QQ:</p>
+                        <p>9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_erweima">
+            <img src="../images/erweima.png" alt=""/>
+        </div>
+    </div>
+    <div class="copy">
+        <span>© COPYRIGHT 东唐|EASTOW INNOVATION 蜀ICP备13019988号-1</span>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/basicJS/jquery.js"></script>
+<script type="text/javascript" src="../js/basicJS/common.js"></script>
+<!--<script type="text/javascript" src="../js/basicJS/swiper.jquery.js"></script>-->
+<script type="text/javascript" src="../js/index.js"></script>
+<!--<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',  //是否分页
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,  //当前页显示几个
+        paginationClickable: true,  //是否可以点击
+        paginationType : 'bullets', //分页提示
+        spaceBetween: 0,
+        loop: true,  //用于无限循环
+        autoplay : 3000,//移动间隔
+        speed:500,   //运动时间
+        autoplayDisableOnInteraction : false  //人为操作后是否继续自动播放
+    });
+
+    var swiper1 = new Swiper('.swiper-container1', {
+        pagination: '.swiper-pagination',  //是否分页
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,  //当前页显示几个
+        paginationClickable: true,  //是否可以点击
+        paginationType : 'bullets', //分页提示
+        spaceBetween: 0,
+        loop: true,  //用于无限循环
+        speed:500,   //运动时间
+        autoplayDisableOnInteraction : false  //人为操作后是否继续自动播放
+    });
+</script>-->
+</body>
+</html>

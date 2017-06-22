@@ -1,0 +1,80 @@
+/*头部*/
+.head_gap{
+    width: 100%;
+    height: 80px;
+}
+.head{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.head_opacity{
+    width: 100%;
+    height: 80px;
+    opacity: 0.9;
+    background-color: #ffffff;
+}
+.head_main{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.head_content{
+    width: 1120px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.border_shadow{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: -10px;
+
+    background: url("../image/shadow.png");
+    background-size: 100% 10px;
+}
+.head_logo{
+    float: left;
+    width: 218px;
+    height: 50px;
+    margin: 15px 0;
+}
+.head_nav{
+    width: 480px;
+    float: right;
+}
+.head_nav ul{
+    overflow: hidden;
+}
+.head_nav ul li{
+    float: left;
+    width: 120px;
+    height: 80px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav_content{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.border_left{
+    border-left: #D9F9D9 solid 1px;
+}
+.nav_content a{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    font-size: 18px;
+    color: #01af21;
+    line-height: 80px;
+}
+.head_nav ul .active{
+    background-color: #01af21;
+}
+.head_nav ul .active .nav_content a{
+    color: #ffffff;
+}

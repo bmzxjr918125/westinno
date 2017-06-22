@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<!--
+
+    Configuration file for UrlRewriteFilter
+    http://www.tuckey.org/urlrewrite/
+
+-->
+<urlrewrite>
+
+    <rule>
+        <note>
+            The rule means that requests to /test/status/ will be redirected to /rewrite-status
+            the url will be rewritten.
+        </note>
+        <from>/test/status/</from>
+        <to type="redirect">%{context-path}/rewrite-status</to>
+    </rule>
+
+
+    <outbound-rule>
+        <note>
+            The outbound-rule specifies that when response.encodeURL is called (if you are using JSTL c:url)
+            the url /rewrite-status will be rewritten to /test/status/.
+
+            The above rule and this outbound-rule means that end users should never see the
+            url /rewrite-status only /test/status/ both in thier location bar and in hyperlinks
+            in your pages.
+        </note>
+        <from>/rewrite-status</from>
+        <to>/test/status/</to>
+    </outbound-rule>
+   <!--   
+    <rule> 
+        <note>场馆活动</note> 
+        <from>/informationshow.html</from> 
+        <to>/informationshow.action</to> 
+    </rule>
+    <rule> 
+        <note>场馆活动</note> 
+        <from>/activitiesshow.html</from>
+        <to>/activitiesshow.action</to> 
+    </rule>
+   
+    <rule> 
+        <note>场馆活动查看</note> 
+        <from>/activitieslook-([0-9]+).html</from> 
+        <to>/activitieslook.action?id=$1</to> 
+    </rule>
+    <rule> 
+        <note>场馆活动分页</note> 
+        <from>/activitiesshow-([0-9]+).html</from> 
+        <to>/activitiesshow.action?pageNum=$1</to> 
+    </rule>
+    <rule> 
+        <note>首页左边点击</note> 
+        <from>/activitiesshow-([0-9]+)-([0-9]+).html</from> 
+        <to>/activitiesshow.action?pid=$1&amp;acttype1=$2</to> 
+    </rule>
+    <rule> 
+        <note>周边热销的tab点击</note> 
+        <from>/indexcontent-([0-9]+).html</from> 
+        <to>/indexcontent.action?flag=$1</to> 
+    </rule> -->
+     
+    
+    
+    <rule> 
+        <note>首页显示</note> 
+        <from>/index.html</from>
+        <to>/htmlIndexShow.action</to> 
+    </rule>
+    
+    
+    <rule> 
+        <note>新闻咨询列表页</note> 
+        <from>/newsShow.html</from>
+        <to>/htmlNewsShow.action</to> 
+    </rule>
+    <rule> 
+        <note>新闻咨询列表页ajax</note> 
+        <from>/newsGetList-([0-9]+)-([0-9]+)-([0-9]+).html</from>
+        <to>/htmlNewsGetList.action?type=$1&amp;pageNumber=$2&amp;currentPage=$3</to> 
+    </rule>
+    <rule> 
+        <note>新闻详情页</note> 
+        <from>/newsLook-([0-9]+).html</from>
+        <to>/htmlNewsLook.action?news_id=$1</to> 
+    </rule>
+    
+    
+     <rule> 
+        <note>用户注册页面</note> 
+        <from>/register.html</from>
+        <to>/htmlUserRegister.action</to> 
+    </rule>
+     <rule> 
+        <note>用户注册手机验证码发送</note> 
+        <from>/sendCode-([0-9]+).html</from>
+        <to>/htmlUserSendCode.action?phoneNum=$1</to> 
+    </rule>
+     <rule> 
+        <note>用户注册保存</note> 
+        <from>/registerSave.html</from>
+        <to>/htmlUserRegisterSave.action</to> 
+    </rule>
+     <rule> 
+        <note>用户注册成功跳转</note> 
+        <from>/registerSuceess.html</from>
+        <to>/htmlUserRegisterSuccess.action</to> 
+     </rule>
+     <rule> 
+        <note>用户跳转登录页面</note> 
+        <from>/login.html</from>
+        <to>/htmlUserLogin.action</to> 
+     </rule>
+     <rule> 
+        <note>用户跳转登录保存</note> 
+        <from>/loginSave.html</from>
+        <to>/htmlUserLoginSave.action</to> 
+     </rule>
+     <rule> 
+        <note>用户跳转用户中心</note> 
+        <from>/memberCenter-([0-9]+).html</from>
+        <to>/htmlUserMemberCenter.action?flag=$1</to> 
+     </rule>
+     <rule> 
+        <note>用户修改手机号码</note> 
+        <from>/updatePhoneNum-([0-9]+)-([0-9]+).html</from>
+        <to>/htmlUserUpdatePhoneNum.action?phoneNum=$1&amp;checkNum=$2</to> 
+     </rule>
+     <rule> 
+        <note>用户修改密码</note> 
+        <from>/switchPassword-(\w+)-(\w+)-(\w+).html</from>
+        <to>/htmlUserSwitchPassword.action?oldPass=$1&amp;newPass=$2&amp;echoPass=$3</to> 
+     </rule>
+     <rule> 
+        <note>用户退出登录</note> 
+        <from>/loginout.html</from>
+        <to>/htmlUserLoginOut.action</to> 
+     </rule>
+    
+    
+    <!--个人中心-->
+     <rule> 
+        <note>用户退出登录</note> 
+        <from>/updateSave.html</from>
+        <to>/htmlUserUpdateSave.action</to> 
+     </rule>
+    
+    
+    <!--商品-->
+     <rule> 
+        <note>商品页面显示</note> 
+        <from>/productShow-([0-9]+).html</from>
+        <to>/htmlProductShow.action?flag=$1</to> 
+     </rule>
+     <rule> 
+        <note>商品页面根据一级类型获取二级类型</note> 
+        <from>/productGetByTypeOne-([0-9]+).html</from>
+        <to>/htmlProductGetByTypeOne.action?type_one=$1</to> 
+     </rule>
+     <rule> 
+        <note>商品页面根据一级类型获取二级类型</note> 
+        <from>/productGetByType-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+).html</from>
+        <to>/htmlProductGetByType.action?type_one=$1&amp;type_two1=$2&amp;type_two2=$3&amp;type_two3=$4</to> 
+     </rule>
+     <rule> 
+        <note>获取用户收藏</note> 
+        <from>/getUserCollect-([0-9]+).html</from>
+        <to>/htmlProductGetUserCollect.action?user_id=$1</to> 
+     </rule>
+     <rule> 
+        <note>获取用户订单</note> 
+        <from>/getUserOrder-([0-9]+).html</from>
+        <to>/htmlProductGetUserOrder.action?user_id=$1</to> 
+     </rule>
+     <rule> 
+        <note>商品收藏保存</note> 
+        <from>/productCollectSave-([0-9]+)-([0-9]+).html</from>
+        <to>/htmlProductCollectSave.action?product_id=$1&amp;collect_status=$2</to> 
+     </rule>
+     <rule> 
+        <note>商品加入购物车</note> 
+        <from>/productCarSave.html</from>
+        <to>/htmlProductCarSave.action</to> 
+     </rule>
+     <rule> 
+        <note>商品删除购物车</note> 
+        <from>/productCarDelete-([0-9]+).html</from>
+        <to>/htmlProductCarDelete.action?car_id=$1</to> 
+     </rule>
+     <rule> 
+        <note>我的购物车</note> 
+        <from>/productShopCar.html</from>
+        <to>/htmlProductShopCar.action</to> 
+     </rule>
+     <rule> 
+        <note>我的购物车数量改变</note> 
+        <from>/productCarChangeNumber-([0-9]+)-([0-9]+).html</from>
+        <to>/htmlProductCarChangeNumber.action?type=$1&amp;car_id=$2</to> 
+     </rule>
+     <rule> 
+        <note>我的购物车去结账</note> 
+        <from>/productCarToOrderAdd.html</from>
+        <to>/htmlProductCarToOrderAdd.action</to> 
+     </rule>
+     <rule> 
+        <note>我的购物车去结账-提交订单</note> 
+        <from>/productCarOrderSure.html</from>
+        <to>/htmlProductCarOrderSure.action</to> 
+     </rule>
+     <rule> 
+        <note>商品跳转订单提交页面</note> 
+        <from>/productOrderAdd-([0-9]+)-([0-9]+).html</from>
+        <to>/htmlProductOrderAdd.action?product_id=$1&amp;number=$2</to> 
+     </rule>
+     <rule> 
+        <note>商品加入订单</note> 
+        <from>/productOrderSave.html</from>
+        <to>/htmlProductOrderSave.action</to> 
+     </rule>
+     <rule> 
+        <note>获取订单对应的客服人员</note> 
+        <from>/getOrderTeam-([0-9]+).html</from>
+        <to>/htmlProductGetOrderTeam.action?order_id=$1</to> 
+     </rule>
+     <rule> 
+        <note>其他页面</note> 
+        <from>/otherpage-([0-9]+).html</from>
+        <to>/htmlIndexOther.action?flag=$1</to> 
+     </rule>
+    
+    <!--
+
+    INSTALLATION
+
+        in your web.xml add...
+
+        <filter>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+            <init-param>
+                <param-name>logLevel</param-name>
+                <param-value>WARN</param-value>
+            </init-param>
+        </filter>
+        <filter-mapping>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <url-pattern>/*</url-pattern>
+        </filter-mapping>
+
+     EXAMPLES
+
+     Redirect one url
+        <rule>
+            <from>/some/old/page.html</from>
+            <to type="redirect">/very/new/page.html</to>
+        </rule>
+
+    Redirect a directory
+        <rule>
+            <from>/some/olddir/(.*)</from>
+            <to type="redirect">/very/newdir/$1</to>
+        </rule>
+
+    Clean a url
+        <rule>
+            <from>/products/([0-9]+)</from>
+            <to>/products/index.jsp?product_id=$1</to>
+        </rule>
+    eg, /products/1234 will be passed on to /products/index.jsp?product_id=1234 without the user noticing.
+
+    Browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <from>/some/page.html</from>
+            <to>/some/page-for-old-browsers.html</to>
+        </rule>
+    eg, will pass the request for /some/page.html on to /some/page-for-old-browsers.html only for older
+    browsers whose user agent srtings match Mozilla/1, Mozilla/2, Mozilla/3 or Mozilla/4.
+
+    Centralised browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <set type="request" name="browser">moz</set>
+        </rule>
+    eg, all requests will be checked against the condition and if matched
+    request.setAttribute("browser", "moz") will be called.
+
+    -->
+
+</urlrewrite>

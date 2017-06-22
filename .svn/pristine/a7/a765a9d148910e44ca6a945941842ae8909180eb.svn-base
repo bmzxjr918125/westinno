@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="htmlnews" extends="json-default">
+        <!-- 关于HTML 新闻的相关action -->
+        <action name="htmlNews*" class="htmlNewsAction" method="{1}">
+            <result name="Show">/frontpage/News/industry_news.jsp</result>
+            <result name="Look">/frontpage/News/news_center.jsp</result>
+        </action>
+    </package>
+</struts>
+	

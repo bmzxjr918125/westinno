@@ -1,0 +1,636 @@
+/*广告图片*/
+.blank{
+    width: 100%;
+    height: 710px;
+    background-color: #01af21;
+    border-top: #01af21 solid 1px;
+    border-bottom: #01af21 solid 1px;
+}
+.blank_content{
+    width: 1120px;
+    height: 580px;
+    margin: 70px auto 60px;
+    position: relative;
+}
+.main_pic{
+    width: 273px;
+    height: 552px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    z-index: 90;
+}
+.main_pic img{
+    width: 273px;
+    height: 552px;
+}
+.ll_pic{
+    width: 355px;
+    height: 580px;
+    position: absolute;
+    left: 163px;
+    top: 0;
+    z-index: 80;
+}
+.ll_pic img{
+    width: 355px;
+    height: 580px;
+}
+.blank_head{
+    width: 550px;
+    height: 59px;
+    text-align: center;
+    position: absolute;
+    top: 42px;
+    right: 0;
+}
+.blank_head span{
+    font-size: 46px;
+    color: #ffffff;
+}
+.blank_head .orange_font{
+    color: #ffcc00;
+}
+.blank_good{
+    width: 550px;
+    height: 80px;
+    padding: 0 2px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.blank_good p{
+    text-align: center;
+    height: 38px;
+}
+.blank_good p span{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 38px;
+}
+.blank_good p .orange_font{
+    color: #ffcc00;
+}
+.margin_right9{
+    margin-right: 9px;
+}
+.margin_left27{
+    margin-left: 27px;
+}
+.two_dimension_code{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    top: 260px;
+    left: 744px;
+    background-color: #ffffff;
+}
+.two_dimension_code_content{
+    width: 200px;
+    height: 200px;
+    background: url("../image/downcode.png") no-repeat center;
+    background-size: 100%;
+}
+.two_logo{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.android_btn{
+    width: 255px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+    left: 570px;
+    border: #ffcc00 solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.android_btn img{
+    margin: 15px;
+    float: left;
+}
+.android_btn span{
+    width: 164px;
+    margin: 15px;
+    float: right;
+    color: #ffcc00;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.iPhone_btn{
+    width: 255px;
+    height: 65px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: #ffffff solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.iPhone_btn img{
+    margin: 15px;
+    float: left;
+    vertical-align: middle;
+}
+.iPhone_btn span{
+    width: 159px;
+    margin: 15px;
+    float: right;
+    color: #01af21;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+/*板块*/
+.plate_list{
+    width: 100%;
+    border-top: #f2f2f2 solid 1px;
+    border-bottom: #f2f2f2 solid 1px;
+    background-color: #f2f2f2;
+}
+.plate_list_content{
+    width: 1120px;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+.plate_list_title{
+    width: 100%;
+    height: 43px;
+    text-align: center;
+}
+.plate_list_title span{
+    color: #01af21;
+    font-size: 32px;
+    line-height: 43px;
+}
+.simple_dic{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.simple_dic span{
+    color: #999999;
+    font-size: 24px;
+    line-height: 40px;
+}
+.plate_pic{
+    width: 1120px;
+    height: 700px;
+    margin-top: 20px;
+}
+.plate_pic_back{
+    background: url("../image/54.png") no-repeat;
+    background-size: 100%;
+}
+
+.plate_pic_content{
+    height: 700px;
+    margin-top: 40px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.plate_pic_content .plate_pic_list1{
+    width: 305px;
+    height: 535px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.8;
+    position: absolute;
+    top: 108px;
+    left: 0;
+    z-index: 10;
+}
+.plate_pic_content .plate_pic_list2{
+    width: 305px;
+    height: 535px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.9;
+    position: absolute;
+    top: 68px;
+    left: 185px;
+    z-index: 20;
+}
+.plate_pic_content .plate_pic_list3{
+    width: 305px;
+    height: 693px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 395px;
+    z-index: 30;
+}
+.plate_pic_content .plate_pic_list4{
+    width: 305px;
+    height: 535px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.9;
+    position: absolute;
+    top: 68px;
+    right: 185px;
+    z-index: 20;
+}
+.plate_pic_content .plate_pic_list5{
+    width: 305px;
+    height: 535px;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.8;
+    position: absolute;
+    top: 108px;
+    right: 0;
+    z-index: 10;
+}
+
+.plate_pic_black{
+    width: 100%;
+    height: 700px;
+    margin-top: 25px;
+    background-color: #666666;
+}
+.plate_pic_black .plate_list_content{
+    width: 1120px;
+    height: 700px;
+    margin: 0 auto;
+}
+.plate_pic_black .plate_list_content img{
+    width: 1120px;
+    height: 700px;
+}
+.plate_doctor{
+    width: 1120px;
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+.doctor_list{
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.doctor_list img{
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    vertical-align: middle;
+}
+.doctor_list1{
+    width: 270px;
+    height: 290px;
+    margin-bottom: 10px;
+}
+.doctor_list2{
+    width: 560px;
+    height: 290px;
+    margin: 0 10px 10px;
+}
+.doctor_list3{
+    width: 270px;
+    height: 290px;
+    margin-bottom: 10px;
+}
+.doctor_list4{
+    width: 270px;
+    height: 290px;
+}
+.doctor_list5{
+    width: 140px;
+    height: 290px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.plate_doctor .doctor_list5 img{
+    width: 140px;
+    height: 140px;
+    float: left;
+}
+.plate_doctor .doctor_list5 img:nth-child(2){
+    top: 150px;
+}
+.doctor_list6{
+    width: 265px;
+    height: 290px;
+    margin-left: 10px;
+}
+.doctor_list7{
+    width: 415px;
+    height: 290px;
+    margin-left: 10px;
+}
+
+.doctor_inf{
+    width: 90%;
+    padding: 5px 5%;
+    position: absolute;
+    top: 290px;
+    background-color: #01af21;
+}
+.doctor_inf_head{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.doctor_inf_head span{
+    float: left;
+    font-size: 32px;
+    color: #ffffff;
+}
+.doctor_inf_head i{
+    float: right;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 43px;
+}
+.doctor_inf_list{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.doctor_inf_list span{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.member_constitute{
+    width: 1120px;
+    height: 580px;
+    margin: 25px auto 0;
+    position: relative;
+}
+.member_list{
+    position: absolute;
+}
+.member1{
+    width: 280px;
+    height: 280px;
+    background-color: #01af21;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.member1 span{
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 280px;
+}
+.member2{
+    width: 260px;
+    height: 300px;
+    background-color: #01af21;
+    text-align: center;
+    top: 0;
+    left: 280px;
+}
+.member2 span{
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 280px;
+}
+.member3{
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top: 0;
+    left: 540px;
+}
+.member3 img{
+    width: 300px;
+    height: 300px;
+}
+.member3 .vertical{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    top: 140px;
+    left: -140px;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+.member4{
+    width: 280px;
+    height: 280px;
+    background-color: #01af21;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+.member4 span{
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 280px;
+}
+.member5{
+    height: 300px;
+    width: 280px;
+    left: 0;
+    bottom: 0;
+}
+.member5 img{
+    width: 280px;
+    height: 300px;
+    vertical-align: middle;
+}
+.member5 .horizontal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 20px;
+}
+.member6{
+    width: 300px;
+    height: 280px;
+    left: 280px;
+    bottom: 0;
+}
+.member6 img{
+    width: 300px;
+    height: 280px;
+    vertical-align: middle;
+}
+.member6 .vertical{
+    width: 280px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+.member7{
+    width: 260px;
+    height: 280px;
+    background-color: #01af21;
+    text-align: center;
+    left: 580px;
+    bottom: 0;
+}
+.member7 span{
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 280px;
+}
+.member8{
+    width: 280px;
+    height: 300px;
+    right: 0;
+    bottom: 0;
+}
+.member8 img{
+    width: 280px;
+    height: 300px;
+    vertical-align: middle;
+}
+.member8 .horizontal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 20px;
+}
+.partner_merchant{
+    width: 1114px;
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+.merchant_list{
+    float: left;
+    margin-left: 6px;
+    border-radius: 5px;
+    border: #01af21 solid 2px;
+}
+.merchant_list:first-child{
+    margin-left: 0;
+}
+.merchant_list img{
+    width: 130px;
+    height: 130px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.download_way{
+    width: 1120px;
+    height: 341px;
+    clear: both;
+    margin: 80px auto 0;
+}
+.phone_type{
+    width: 320px;
+    height: 341px;
+    float: left;
+    position: relative;
+    background: url("../image/kuang2.png") no-repeat center;
+}
+.phone_type:nth-child(2){
+    margin: 0 80px;
+}
+.brand_icon{
+    width: 96px;
+    height: 96px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    border: #01af21 solid 2px;
+    border-radius: 50px;
+}
+.brand_icon img{
+    width: 36px;
+    height: 36px;
+    margin: 30px;
+}
+.phone_type p{
+    width: 100%;
+    margin: 60px 0 10px;
+    text-align: center;
+}
+.phone_type p span{
+    font-size: 32px;
+    color: #01af21;
+}
+.download_btn{
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.download_btn span{
+    display: inline-block;
+    border: #01af21 solid 1px;
+    border-radius: 5px;
+    width: 260px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: #01af21;
+}
+.download_btn span:hover{
+    background-color: #01af21;
+    color: #ffffff;
+}
+
+.two_dimension_code_frame{
+    width: 200px;
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    display: none;
+    text-align: center;
+}
+.two_dimension_code_frame_content{
+    width: 200px;
+    height: 200px;
+    background: url("../image/downcode.png") no-repeat center;
+    background-size: 100%;
+}
+.two_dimension_code_frame_content img{
+    width: 50px;
+    height: 50px;
+    margin: 75px;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+.two_dimension_code_frame span{
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

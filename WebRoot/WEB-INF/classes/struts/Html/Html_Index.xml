@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="htmlindex" extends="json-default">
+        <!-- 关于HTML 新闻的相关action -->
+        <action name="htmlIndex*" class="htmlIndexAction" method="{1}">
+            <result name="Show">/frontpage/Index/index.jsp</result>
+            <result name="page_1">/frontpage/Other/page_1.jsp</result>
+            <result name="page_2">/frontpage/Other/page_2.jsp</result>
+            <result name="page_3">/frontpage/Other/page_3.jsp</result>
+            <result name="page_4">/frontpage/Other/page_4.jsp</result>
+            <result name="page_5">/frontpage/Other/page_5.jsp</result>
+            <result name="page_6">/frontpage/Other/page_6.jsp</result>
+            <result name="page_7">/frontpage/Other/page_7.jsp</result>
+            <result name="page_8">/frontpage/Other/page_8.jsp</result>
+            <result name="page_9">/frontpage/Other/page_9.jsp</result>
+            <result name="page_10">/frontpage/Other/page_10.jsp</result>
+            <result name="page_11">/frontpage/Other/page_11.jsp</result>
+            <result name="page_12">/frontpage/Other/page_12.jsp</result>
+            <result name="page_13">/frontpage/Other/page_13.jsp</result>
+            <result name="page_14">/frontpage/Other/page_14.jsp</result>
+            <result name="page_15">/frontpage/Other/page_15.jsp</result>
+        </action>
+    </package>
+</struts>
+	
